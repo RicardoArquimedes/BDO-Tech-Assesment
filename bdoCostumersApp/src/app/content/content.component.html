@@ -1,0 +1,85 @@
+<div class="content" role="main">
+
+    <div class="row">
+      <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3 text-center"></div>
+      <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6 text-center">
+            
+        <div id="content-info" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center section-info">
+            <div class="form-group row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <label for="bdo-company-heading" class="bdo-company-heading"> Flotas La Macarena </label>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <label *ngFor="let item of items" for="bdo-nit" class="bdo-nit">NIT {{item.nit}} </label>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <label *ngFor="let item of items" for="bdo-data" class="bdo-data">Capa: {{item.capa}} </label>
+                    
+                    <label for="bdo-section" class="bdo-section">&middot;</label>
+
+                    <label *ngFor="let item of items" for="bdo-data" class="bdo-data">Segmento: {{item.segmento}} </label>
+                </div>
+            </div>
+        </div>
+        <div id="content-opciones" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center section-info">
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Operación</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Indicadores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Información Cliente</a>
+                </li>
+              </ul>
+        </div>
+
+        <div id="section-text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left section-info section-text">
+            Indique la línea de crédito que quiere reconsiderar
+        </div>
+  
+        <div id="content-botones" class="row section-info">
+  
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-2 text-center"></div>
+            <div class="section-cards col-xs-6 col-sm-6 col-md-5 col-lg-4 text-center">
+                <a id="link_cartera_ordinaria" href="https://www.grupoaval.com/home" class="content-card" >
+                    <div class="card content-button">
+                        <div class="card-body">
+                            <img src="../../assets/images/carteraOrdinaria.png" class="img-responsive img-btn-continue">
+                            <h6 class="card-title bdo-btn-continue">Cartera ordinaria</h6>
+                            <div class="btn-continue">Continuar</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+  
+            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4 text-center">
+                <a id="link_leasing" href="#" class="content-card disabled" >
+                    <div class="card content-button">
+                        <div class="card-body">
+                            <img src="../../assets/images/leasing.png" class="img-responsive img-btn-continue">
+                            <h6 class="card-title bdo-btn-continue">Leasing</h6>
+                            <div class="btn-continue">Continuar</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-1 col-lg-2 text-center"></div>
+        </div>
+        
+  
+        <div id="content-alerta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left section-info">
+            <div class="alert alert-warning alert-container" role="alert">
+                <img src="../../assets/images/advertencia.png" alt="warning" class="img-warning"> Las demás lineas de crédito no estarán disponible por el momento
+            </div>
+        </div>
+  
+        </div>
+  
+      </div>
+
+      <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3 text-center"></div>
+
+    <div class="row">
+  </div>

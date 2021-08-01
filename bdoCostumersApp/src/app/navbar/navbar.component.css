@@ -1,0 +1,50 @@
+nav {
+    border-bottom: 1.5px solid #d8dde0;
+    background: #fff;
+    height: 80px;
+}
+
+
+.logoBdo {
+    width: 80%;
+    margin-left: 20px;
+}
+.img-fluid {
+    width: 45px;
+    margin-right: 20px
+    
+}
+
+
+.name-data{
+
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 15px;
+    line-height:  20px;
+    font-family: Gelion-Regular;
+}
+
+label#item-key {
+    color: #7E7E7E;
+}
+
+label#item-value {
+    color: #02305A;
+    font-weight: bold;
+}
+@media (min-width: 992px) {
+.navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+}
+
+@media (min-width: 768px) {
+   .logoBdo {
+       text-align: center;
+   }
+    
+    }
+    

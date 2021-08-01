@@ -1,0 +1,112 @@
+.content{
+    padding: 8px;
+    font-family: Gelion-Regular;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.section-text {
+    color: #008ACC;
+    font-size: 18px;
+}
+
+.img-warning {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    align-items: center;
+}
+@media (min-width: 320px) {
+    .section-text {
+        margin: 0px 10px 0px 20px;
+        font-size: 16px;
+    }
+    
+    .card {
+        width: 200px;
+    
+    }
+    
+    }
+
+.alert-container{
+    color: #d2ab1c;
+    border-radius: 8px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.bdo-company-heading{
+    font-size: 30px;
+    color: #02305A;
+}
+.bdo-company-heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: #02305A;
+}
+.bdo-nit{
+    font-size: 20px;
+    color: #7e7e7e;
+}
+.bdo-data{
+    font-size: 16px;
+    font-weight: bold;
+    color: #02305A;
+}
+.bdo-data-value{
+    font-size: 16px;
+    color: #02305A;
+}
+.bdo-section{
+    font-size: 20px;
+    font-weight: bold;
+    color: #008ACC;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.section-info{
+    padding-bottom: 32px;
+}
+.section-text{
+    text-align: left;
+}
+.card-body{
+    padding: 0em;
+    border-radius: 8px;
+}
+.content-card{
+    border-radius: 8px;
+    border: 0.32px;
+}
+.card {
+    border-radius: 8px;
+}
+.btn-continue{
+    background-color: #e9ecef ;
+    color: #008ACC;
+    padding: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+a{
+    color: #02305A;
+    text-decoration: none;
+}
+#link_leasing.disabled {
+    color: gray;
+    pointer-events: none;
+}
+.content-button:hover {
+    background-color: #fff5f5e5;
+}
+.img-btn-continue{
+    width: 70px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+.bdo-btn-continue{
+    margin-bottom: 16px;
+}
