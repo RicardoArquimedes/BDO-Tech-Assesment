@@ -2,8 +2,13 @@ nav {
     border-bottom: 1.5px solid #d8dde0;
     background: #fff;
     height: 80px;
+    
 }
 
+.arrow-left{
+    width: 30px;
+    margin-left: 20px;
+}
 
 .logoBdo {
     width: 80%;
