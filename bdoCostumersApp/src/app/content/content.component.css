@@ -1,10 +1,12 @@
 .content{
-    padding: 8px;
     font-family: Gelion-Regular;
+    overflow-x: hidden;
+    
+    
 }
 
 .row {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .nav-link.active,
@@ -20,8 +22,8 @@
 }
 
 .img-warning {
-    width: 25px;
-    
+    width: 30px;
+    margin-top: -4px;
     margin-right: 5px;
     align-items: center;
 }
@@ -34,7 +36,7 @@
     color: #d2ab1c;
     border-radius: 8px;
     text-align: left;
-    margin-bottom: 48px;
+    margin-top: 10px;
 }
 
 .bdo-company-heading{
@@ -63,9 +65,9 @@
     font-size: 20px;
     font-weight: bold;
     color: #008ACC;
-    padding-left: 16px;
-    padding-right: 16px;
+    
 }
+
 .section-info{
     
     padding-bottom: 20px;
@@ -74,6 +76,8 @@
     text-align: left;
     
 }
+
+
 .card-body{
     padding: 0em;
     border-radius: 8px;
@@ -90,11 +94,20 @@
     border-color: #7f7679;
 }
 .btn-continue{
+    
     background-color: #e9ecef ;
     color: #008ACC;
     padding: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
+    
+    
+}
+.btn-continue:hover{
+    
+        color: #fff;
+        background-color:#02305A;
+    
 }
 .btn-continue#disable-continue {
     color: #7E7E7E;
@@ -110,7 +123,11 @@ a{
 
 
 .content-button:hover {
-    background-color: #fff5f5e5;
+    background-color: #FFF;
+    box-shadow: rgb(0 138 204 / 40%) 0px 20px 15px -8px,
+    rgb(0 138 204 / 22%) 0px 15px 10px -5px;
+  transform: scale(1.05);
+  border: #02305A;
 }
 .img-btn-continue{
     width: 70px;
@@ -122,3 +139,86 @@ a{
 }
 
 
+
+#card-options {
+    background: red
+}
+
+
+
+@media (max-width: 576px) {
+    #container-cards {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 4px;
+ 
+     }
+     .section-cards {
+         margin-left: 0px;
+         width: 50%;
+     }
+     .card-leasing{
+         width: 49%;
+         margin-right: 0.5px;
+     }
+
+     #section-text{
+        margin-left: 20px;
+        font-weight: 18px;
+     }
+
+     .alert-container {
+         margin-left: 20px;
+     }
+
+    
+    
+}
+
+@media (max-width:310px) {
+
+    .section-cards{
+        
+        height: 224.67px;
+        width: 151px;
+    }
+
+    .card-leasing {
+        height: 224.67px;
+        width: 151px;
+    }
+
+}
+@media (max-width: 768px) {
+     .d-none {
+       visibility: hidden;
+       
+       
+   } 
+
+   .section-info{
+    padding-top: -10px;
+    padding-bottom: 0px;
+}
+
+.alert-container{
+    margin-bottom: 30px;
+}
+}
+
+@media (max-width:310px) {
+
+    .section-cards{
+        
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .card-leasing {
+        width:100%;
+    }
+
+}

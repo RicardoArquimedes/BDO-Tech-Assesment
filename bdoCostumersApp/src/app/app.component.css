@@ -1,9 +1,11 @@
 html, body {
     font-family: Gelion-Regular;
+  
 }
 
 @font-face {
     font-family: Gelion-Regular;
     src: url(../assets/fonts/Gelion-Regular.ttf);
 }
+
 

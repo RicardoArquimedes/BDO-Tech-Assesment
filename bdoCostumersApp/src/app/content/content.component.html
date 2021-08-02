@@ -1,19 +1,19 @@
 <div class="content" role="main">
 
     <div class="row">
-      <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3 text-center"></div>
-      <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6 text-center">
+      <div class="col- col-sm-1 col-md-3 col-lg-3 text-center"></div>
+      <div class="col- col-sm-10 col-md-6 col-lg-6 text-center">
             
-        <div id="content-info" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center section-info">
+        <div id="content-info" class="col-sm-12 col-md-12 col-lg-12 text-center section-info">
             <div class="form-group row">
-                <img src="../../assets/images/arrow-left.png" class="arrow-left d-none d-md-block" alt="arrow"/>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-                    <label for="bdo-company-heading" class="bdo-company-heading"> Flotas La Macarena </label>
+                <img src="../../assets/images/arrow-left.png" class="arrow-left d-none d-sm-block d-md-block" alt="arrow"/>
+                <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                    <label *ngFor="let item of items" for="bdo-company-heading" class="bdo-company-heading"> {{item.nombre}} </label>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class=" col-sm-12 col-md-12 col-lg-12">
                     <label *ngFor="let item of items" for="bdo-nit" class="bdo-nit">NIT {{item.nit}} </label>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class=" col-sm-12 col-md-12 col-lg-12">
                     <label *ngFor="let item of items" for="bdo-data" class="bdo-data">Capa: {{item.capa}} </label>
                     
                     <label for="bdo-section" class="bdo-section">&middot;</label>
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <div id="content-opciones" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 d-none d-md-block text-center  section-info">
+        <div id="content-opciones" class=" col-sm-12 col-md-12 col-lg-12 d-none d-md-block text-center  section-info">
             <ul class="nav nav-tabs nav-fill">
                 <li class="nav-item ">
                   <a class="nav-link active" href="#">Operación</a>
@@ -36,17 +36,17 @@
               </ul>
         </div>
 
-        <div id="section-text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left section-info section-text">
+        <div id="section-text" class=" col-sm-12 col-md-12 col-lg-12 text-left section-info section-text">
             Indique la línea de crédito que quiere reconsiderar
         </div>
   
-        <div  class="row section-info">
+        <div  class="row section-info" id="container-cards">
   
-            <div class=" col-xs-12 col-sm-12 col-md-1 col-lg-2 text-center"></div>
-            <div class="section-cards  col-xs-12 col-sm-6 col-md-5 col-lg-4 text-center">
+            <div class="cards-content col-sm-12 col-md-1 col-lg-2 text-center"></div>
+            <div class="section-cards  col-sm-6 col-md-5 col-lg-4 text-center">
                 <a id="link_cartera_ordinaria" href="" class="content-card" >
-                    <div class="card content-button" id="card-active">
-                        <div class="card-body">
+                    <div class="card content-button col-sm" id="card-active">
+                        <div  class="card-body col-sm" id="cartera-card">
                             <img src="../../assets/images/carteraOrdinaria.png" class="img-responsive img-btn-continue">
                             <h6 class="card-title bdo-btn-continue">Cartera ordinaria</h6>
                             <div class="btn-continue">Continuar</div>
@@ -55,7 +55,7 @@
                 </a>
             </div>
   
-            <div class="col-xs-6 col-sm-6 col-md-5 col-lg-4 text-center">
+            <div class="card-leasing col- col-sm-6 col-md-5 col-lg-4 text-center">
                 <a id="link_leasing" href="#" class="content-card disabled" >
                     <div class="card content-button">
                         <div class="card-body">
@@ -70,7 +70,7 @@
         </div>
         
   
-        <div id="content-alerta" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-left section-info">
+        <div id="content-alerta" class=" col-sm-12 col-md-12 col-lg-12 text-left section-info">
             <div class="alert alert-warning alert-container" role="alert">
                 <img src="../../assets/images/advertencia.png" alt="warning" class="img-warning"> Las demás lineas de crédito no estarán disponible por el momento
             </div>
