@@ -1,187 +1,194 @@
-.content{
-    font-family: Gelion-Regular;
-    overflow-x: hidden;
-    
-    
+.content {
+  font-family: Gelion-Regular;
+  overflow-x: hidden;
 }
 
 .row {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .nav-link.active,
 .nav-item.show .nav-link {
   border-color: transparent;
-  border-bottom: 2px solid #008ACC;
-  
+  border-bottom: 2px solid #008acc;
 }
 
 .section-text {
-    color: #008ACC;
-    font-size: 18px;
+  color: #008acc;
+  font-size: 18px;
 }
 
 .img-warning {
-    width: 30px;
-    margin-top: -4px;
-    margin-right: 5px;
-    align-items: center;
+  width: 30px;
+  margin-top: -4px;
+  margin-right: 5px;
+  align-items: center;
 }
 
-.arrow-left{
-    width: 40px;
+.arrow-left {
+  width: 40px;
 }
 
-.alert-container{
-    color: #d2ab1c;
-    border-radius: 8px;
-    text-align: left;
-    margin-top: 10px;
+.alert-container {
+  color: #d2ab1c;
+  border-radius: 8px;
+  text-align: left;
+  margin-top: 10px;
 }
 
-.bdo-company-heading{
-    font-size: 30px;
-    color: #02305A;
+.bdo-company-heading {
+  font-size: 30px;
+  color: #02305a;
 }
-.bdo-company-heading{
-    font-size: 30px;
-    font-weight: bold;
-    color: #02305A;
+.bdo-company-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #02305a;
 }
-.bdo-nit{
-    font-size: 20px;
-    color: #7e7e7e;
+.bdo-nit {
+  font-size: 20px;
+  color: #7e7e7e;
 }
-.bdo-data{
-    font-size: 16px;
-    font-weight: bold;
-    color: #02305A;
+.bdo-data {
+  font-size: 16px;
+  font-weight: bold;
+  color: #02305a;
 }
-.bdo-data-value{
-    font-size: 16px;
-    color: #02305A;
+.bdo-data-value {
+  font-size: 16px;
+  color: #02305a;
 }
-.bdo-section{
-    font-size: 20px;
-    font-weight: bold;
-    color: #008ACC;
-    
-}
-
-.section-info{
-    
-    padding-bottom: 20px;
-}
-.section-text{
-    text-align: left;
-    
+.bdo-section {
+  font-size: 20px;
+  font-weight: bold;
+  color: #008acc;
 }
 
-
-.card-body{
-    padding: 0em;
-    border-radius: 8px;
+.section-info {
+  padding-bottom: 20px;
 }
-.content-card{
-    border-radius: 8px;
-    border: 0.32px;
+.section-text {
+  text-align: left;
+}
+
+.card-body {
+  padding: 0em;
+  border-radius: 8px;
+}
+.content-card {
+  border-radius: 8px;
+  border: 0.32px;
 }
 .card {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 #card-active {
-    border-color: #7f7679;
+  border-color: #7f7679;
 }
-.btn-continue{
-    
-    background-color: #e9ecef ;
-    color: #008ACC;
-    padding: 8px;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    
-    
+.btn-continue {
+  background-color: #e9ecef;
+  color: #008acc;
+  padding: 8px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
-.btn-continue:hover{
-    
-        color: #fff;
-        background-color:#02305A;
-    
+.btn-continue:hover {
+  color: #fff;
+  background-color: #02305a;
 }
 .btn-continue#disable-continue {
-    color: #7E7E7E;
+  color: #7e7e7e;
 }
-a{
-    color: #02305A;
-    text-decoration: none;
+a {
+  color: #02305a;
+  text-decoration: none;
 }
 #link_leasing.disabled {
-    color: #7e7e7e;
-    pointer-events: none;
+  color: #7e7e7e;
+  pointer-events: none;
 }
-
 
 .content-button:hover {
-    background-color: #FFF;
-    box-shadow: rgb(0 138 204 / 40%) 0px 20px 15px -8px,
+  background-color: #fff;
+  box-shadow: rgb(0 138 204 / 40%) 0px 20px 15px -8px,
     rgb(0 138 204 / 22%) 0px 15px 10px -5px;
   transform: scale(1.05);
-  border: #02305A;
+  border: #02305a;
 }
-.img-btn-continue{
-    width: 70px;
-    margin-top: 48px;
-    margin-bottom: 32px;
+.img-btn-continue {
+  width: 70px;
+  margin-top: 48px;
+  margin-bottom: 32px;
 }
-.bdo-btn-continue{
-    margin-bottom: 16px;
+.bdo-btn-continue {
+  margin-bottom: 16px;
 }
-
-
 
 #card-options {
-    background: red
+  background: red;
 }
-
-
 
 @media (max-width: 576px) {
-    #container-cards {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-left: 4px;
- 
-     }
-     .section-cards {
-         margin-left: 0px;
-         width: 50%;
-     }
-     .card-leasing{
-         width: 49%;
-         margin-right: 0.5px;
-     }
+  #container-cards {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 4px;
+  }
+  .section-cards {
+    margin-left: 0px;
+    width: 50%;
+  }
+  .card-leasing {
+    width: 49%;
+    margin-right: 0.5px;
+  }
 
-     #section-text{
-        margin-left: 20px;
-        font-weight: 18px;
-     }
+  #section-text {
+    margin-left: 20px;
+    font-weight: 18px;
+  }
 
-     .alert-container {
-         margin-left: 20px;
-     }
-
-    
-    
+  .alert-container {
+    margin-left: 20px;
+  }
 }
 
-@media (max-width:310px) {
+@media (max-width: 320px) {
+  #container-cards {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 4px;
+  }
+  .section-cards {
+    margin-left: 0px;
+    width: 50%;
+  }
+
+  #content-botones {
+    padding-left: 15px;
+  }
+
+  #section-text {
+    margin-left: 20px;
+    font-weight: 18px;
+  }
+
+  .alert-container {
+    margin-left: 20px;
+  }
+}
+
+/* @media (max-width:310px) {
 
     .section-cards{
-        
+
         height: 224.67px;
         width: 151px;
     }
@@ -191,34 +198,18 @@ a{
         width: 151px;
     }
 
-}
+} */
 @media (max-width: 768px) {
-     .d-none {
-       visibility: hidden;
-       
-       
-   } 
+  .d-none {
+    visibility: hidden;
+  }
 
-   .section-info{
+  .section-info {
     padding-top: -10px;
     padding-bottom: 0px;
-}
+  }
 
-.alert-container{
+  .alert-container {
     margin-bottom: 30px;
-}
-}
-
-@media (max-width:310px) {
-
-    .section-cards{
-        
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .card-leasing {
-        width:100%;
-    }
-
+  }
 }

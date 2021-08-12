@@ -1,27 +1,17 @@
 @media (min-width: 320px) {
-    .aval-logo {
-        
-        text-align: center;
-       
-        
-    }
-    
-    }
-    
-    @media (min-width: 1280px) {
-        .aval-logo {
-        
-            text-align: right;
-            
-            
-        }
-        
-        }
-    
+  .aval-logo {
+    text-align: center;
+  }
+}
 
-    .aval-img {
-        width: 96px;
-        height: 27px;
-        margin: 0px 10px 10px 0px;
-    }
-    
+@media (min-width: 1280px) {
+  .aval-logo {
+    text-align: right;
+  }
+}
+
+.aval-img {
+  width: 96px;
+  height: 27px;
+  margin: 0px 10px 10px 0px;
+}

@@ -1,111 +1,94 @@
 nav {
-    border-bottom: 1.5px solid #d8dde0;
-    background: #fff;
-    height: 70px;
-    
+  border-bottom: 1.5px solid #d8dde0;
+  background: #fff;
+  height: 70px;
 }
 
 .navbar-light .navbar-toggler {
-    color: transparent;
-    border: 1px;
-    background: #FAFAFA;
+  color: transparent;
+  border: 1px;
+  background: #fafafa;
 }
 .navbar-toggler:focus {
-    text-decoration: none;
-    box-shadow: 0 0 0 1px;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px;
 }
-.arrow-left{
-    width: 20px;
-    margin-left: 15px;
+.arrow-left {
+  width: 20px;
+  margin-left: 15px;
 }
 
 .logoBdo {
-    width: 100%;
-    margin-left: 15px;
+  width: 100%;
+  margin-left: 15px;
 }
 .img-fluid {
-    width: 45px;
-    margin-right: 20px
-    
+  width: 45px;
+  margin-right: 20px;
 }
 
-
-.name-data{
-
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    margin-right: 15px;
-    line-height:  20px;
-    font-family: Gelion-Regular;
+.name-data {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-right: 15px;
+  line-height: 20px;
+  font-family: Gelion-Regular;
 }
 
 label#item-key {
-    color: #7E7E7E;
+  color: #7e7e7e;
 }
 
 label#item-value {
-    color: #02305A;
-    font-weight: bold;
+  color: #02305a;
+  font-weight: bold;
 }
-@media (min-width : 1200px) {
-    .logoBdo {
-        text-align: center;
-    }
-
+@media (min-width: 1200px) {
+  .logoBdo {
+    text-align: center;
+  }
 }
 @media (min-width: 992px) {
-.navbar-collapse {
+  .navbar-collapse {
     flex-direction: row-reverse;
-}
-
+  }
 }
 
 @media (min-width: 768px) {
-   .logoBdo {
-       text-align: center;
-   }
-   
-}
-    
-    
-    
-
-@media (max-width: 300px){
-    .arrow-left .d-none {
-        visibility: hidden;
-        width: 10px;
-        
-
-    }
-     
-    .logoBdo {
-        width: 80%;
-        
-    }
-
-    .navbar-light .navbar-toggler {
-        width: 10px;
-        padding-right: 3px;
-     }
-
+  .logoBdo {
+    text-align: center;
+  }
 }
 
-@media (min-width: 300px){
-    .arrow-left .d-none {
-        visibility: visible;
-        width: 10px;
-        
-    }
+@media (max-width: 300px) {
+  .arrow-left .d-none {
+    visibility: hidden;
+    width: 10px;
+  }
 
-    .navbar-light .navbar-toggler {
-       width: 10px;
-       padding-right: 3px;
-    }
+  .logoBdo {
+    width: 80%;
+  }
 
-    .logoBdo {
-        width: 80%;
-        
-    }
+  .navbar-light .navbar-toggler {
+    width: 10px;
+    padding-right: 3px;
+  }
+}
 
+@media (min-width: 300px) {
+  .arrow-left .d-none {
+    visibility: visible;
+    width: 10px;
+  }
+
+  .navbar-light .navbar-toggler {
+    width: 10px;
+    padding-right: 3px;
+  }
+
+  .logoBdo {
+    width: 80%;
+  }
 }

@@ -1,27 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light ">
-  <img src="../../assets/images/arrow-left.png" class="arrow-left .d-none  d-sm-block d-md-none" alt="arrow"/>
-	<a class="navbar-brand" href="/">
-  <img src="../../../../assets/logo-h.png" alt="logoBdo" class="logoBdo">
-  </a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleNavbar()">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{ 'show': isCollapsed }">
-    <ul class="navbar-nav mr-auto">
-      
-    </ul>
-    
-  </div>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  
-      <img src="../../assets/images/profile-img.png" class="img-fluid rounded-circle z-depth-0" />
-      <div class="name-data">
-        <label *ngFor="let item of items" for="bdo-campo" class="bdo-campo" id="item-value"> {{item.gerenteRelacion}} </label>
-        <label *ngFor="let item of items" for="bdo-campo" class="bdo-campo" id="item-key"> Gerente de Relación </label>
-      </div>
-      
-    
-  </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+    <img src="../../assets/images/arrow-left.png" class="arrow-left .d-none
+        d-sm-block d-md-none" alt="arrow" />
+    <a class="navbar-brand" href="/">
+        <img src="../../../../assets/logo-h.png" alt="logoBdo" class="logoBdo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation"
+        (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent"
+        [ngClass]="{ 'show': isCollapsed }">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <img src="../../assets/images/profile-img.png" class="img-fluid
+            rounded-circle z-depth-0" />
+        <div class="name-data">
+            <label *ngFor="let item of items" for="bdo-campo" class="bdo-campo"
+                id="item-value"> {{item.gerenteRelacion}}
+            </label>
+            <label *ngFor="let item of items" for="bdo-campo" class="bdo-campo"
+                id="item-key"> Gerente de Relación </label>
+        </div>
+    </div>
 </nav>
